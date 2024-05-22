@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website of ULTRAS RIYADY. Join our community on WhatsApp, TikTok, Instagram, and Facebook.">
+    <title>Blue Header and Footer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('ULTRASR.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header, footer {
+            background-color: blue;
+            color: yellow;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: fixed;
+            z-index: 1000;
+        }
+        header {
+            top: 0;
+        }
+        footer {
+            bottom: 0;
+        }
+        main {
+            flex: 1;
+            padding-top: 80px;
+            padding-bottom: 120px; /* Adjusted for image and footer height */
+            margin: 20px;
+            color: white;
+            font-weight: bold;
+            text-decoration: underline;
+            overflow-y: auto;
+        }
+        .icons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; /* Adjust icons for smaller screens */
+            margin-top: 20px;
+        }
+        .icons a {
+            margin: 10px; /* Adjusted for smaller screens */
+        }
+        .icons img {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+        }
+        .footer-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        /* Media Queries for Responsive Design */
+        @media (max-width: 600px) {
+            header, footer {
+                padding: 5px 0;
+            }
+            main {
+                margin: 10px;
+                padding-top: 60px;
+                padding-bottom: 80px;
+                font-size: 14px; /* Adjust font size for readability */
+            }
+            .icons img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO THE OFFICIAL WEBSITE OF ULTRAS RIYADY</h1>
+    </header>
+    <main>
+        <p>To join our WhatsApp group, click on the icon:</p>
+        <p>To follow our TikTok page, click on the icon:</p>
+        <p>To join our WhatsApp community, click on the icon:</p>
+        <p>To follow our Instagram page, click on the icon:</p>
+        <p>To follow our Facebook page, click on the icon:</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+        <div class="icons">
+            <a href="https://chat.whatsapp.com/FLImIWuB4jV1JpMBWkNlT1" target="_blank">
+                <img src="WHATSAPP.png" alt="WhatsApp Group" title="Join our WhatsApp group">
+            </a>
+            <a href="https://www.tiktok.com/@ultras.riyadi?_t=8mZBPTdpbyC&_r=1" target="_blank">
+                <img src="tiktok.png" alt="TikTok" title="Follow us on TikTok">
+            </a>
+            <a href="https://whatsapp.com/channel/0029Vabn6VhISTkQBTuY1p36" target="_blank">
+                <img src="WHATSAPP.png" alt="WhatsApp Community" title="Join our WhatsApp community">
+            </a>
+            <a href="https://www.instagram.com/ultras.riyadi?igsh=MXV2b3ZlZ2tsem9ucQ==" target="_blank">
+                <img src="INSTA.jpg" alt="Instagram" title="Follow us on Instagram">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61555933158007" target="_blank">
+                <img src="FACEBOOK.jpg" alt="Facebook" title="Follow us on Facebook">
+            </a>
+        </div>
+    </main>
+    <img src="your-image.jpg" alt="Image above footer" class="footer-image">
+    <footer>
+        <p>For any feedback, chat with us on the official TikTok page (ULTRAS RIYADY)</p>
+        <p>© 2024 ULTRAS RIYADY. All rights reserved.</p>
+    </footer>
+</body>
+</html>
